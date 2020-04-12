@@ -1,6 +1,6 @@
-# Deep RL navigation: Project details
-Project to solve an environment similar to the Unity Banana Collector using deep reinforcement learning.
-The agent moves and navigates in a large, square banana world and its goal is to collect yellow bananas while avoiding blue ones.
+# Deep RL or how to navigate in a world full of bananas
+Project to solve the Unity Banana Collector Environment using deep reinforcement learning.
+The agent moves and navigates in a large, square banana world and its goal is to collect yellow bananas while avoiding blue ones. 
 
 ![Trained Agent](pics/trained.gif)
 
