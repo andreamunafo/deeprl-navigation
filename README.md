@@ -22,15 +22,27 @@ The project is based on [Unity ML-Agent toolkit](https://github.com/Unity-Techno
 
 # Getting Started
 ## Installing dependencies
-The recommended way of using this repository is through Anaconda.
-Set up your banana world environment: `conda create --name banana-navigation python=3.6`
-and activate it: `source activate banana-navigation`
-Install dependencies:
-`cd python/
-pip install .`
+The recommended way of using this repository is through Anaconda.   
+Set up your banana world environment: 
+```
+conda create --name banana-navigation python=3.6
+```
+
+and activate it: 
+```
+source activate banana-navigation
+```
+
+Install dependencies:   
+```
+cd python/
+pip install .
+```
 
 Since this repository uses jupyter notebook, install the corresponding banana-navigation kernel:
-`python -m ipykernel install --user --name drlnd --display-name "banana-navigation"`
+```
+python -m ipykernel install --user --name drlnd --display-name "banana-navigation"
+```
 
 In jupyter notebook, before running the code, make sure that the appropriate kernel is selected.
 
