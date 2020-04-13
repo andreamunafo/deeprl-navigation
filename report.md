@@ -4,16 +4,20 @@ The learning algorithm used is the vanilla Deep Q Learning.
 Deep Q-Learning uses two separate networks with identical architectures for training. The target Q-network weigths are updated less often or more slowly than the primary Q-network.
 At its core there is a simple neural network composed of three fully connected layers:
 
-`self.fc1 = nn.Linear(state_size, fc1_units)
+```
+self.fc1 = nn.Linear(state_size, fc1_units)
 self.fc2 = nn.Linear(fc1_units, fc2_units)
 self.fc3 = nn.Linear(fc2_units, action_size)``
+```
 
 where state_size = 37, fc1_units = 64, fc2_units = 64 and action_size = 4.
 
 A ReLU activation function follows each linear layer (except for the last one):
-`x = F.relu(self.fc1(state))
+```
+x = F.relu(self.fc1(state))
 x = F.relu(self.fc2(x))
-output = self.fc3(x)``
+output = self.fc3(x)
+```
 
 Finally, the agent uses a replay buffer to break the correlation between experience tuples and improve training.
 
