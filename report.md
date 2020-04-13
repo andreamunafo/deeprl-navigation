@@ -37,33 +37,20 @@ Finally, the agent uses a replay buffer to break the correlation between experie
 
 
 ## Results
-The environment is solved in 600 episodes (reward average over 100 episodes >= 13.0), although I did let it train until episode 2000.
+The environment is solved in 412 episodes, with an average score of 13.02 over 100 episodes.
 
-Episode 100	Average Score: 0.79
-Episode 200	Average Score: 4.57
-Episode 300	Average Score: 8.39
-Episode 400	Average Score: 10.51
-Episode 500	Average Score: 12.51
-Episode 600	Average Score: 13.61
-Episode 700	Average Score: 14.49
-Episode 800	Average Score: 14.15
-Episode 900	Average Score: 14.91
-Episode 1000	Average Score: 15.41
-Episode 1100	Average Score: 15.45
-Episode 1200	Average Score: 15.81
-Episode 1300	Average Score: 16.72
-Episode 1400	Average Score: 16.58
-Episode 1500	Average Score: 16.42
-Episode 1600	Average Score: 16.74
-Episode 1700	Average Score: 16.94
-Episode 1800	Average Score: 15.78
-Episode 1900	Average Score: 16.18
-Episode 2000	Average Score: 16.46
-
+Episode 100	Average Score: 1.20  
+Episode 200	Average Score: 4.81  
+Episode 300	Average Score: 7.42  
+Episode 400	Average Score: 9.42  
+Episode 500	Average Score: 12.83  
+Episode 512	Average Score: 13.02  
+Environment solved in 412 episodes!	Average Score: 13.02
 
 The image below shows the score as a function of the episodes:
 
-![Scores](pics/scores-episodes)
+![Scores](pics/scores-episodes.png)
+
 
 
 # Future work
