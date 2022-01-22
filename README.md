@@ -47,4 +47,5 @@ python -m ipykernel install --user --name drlnd --display-name "banana-navigatio
 In jupyter notebook, before running the code, make sure that the appropriate kernel is selected.
 
 ## How to run the code
-Run the `navigation.ipynb` notebook.
+Run the `navigation.ipynb` notebook to load the environment and train your agent. 
+The notebook also provides code to run the trained agent inside the banana world and see how it behaves.
